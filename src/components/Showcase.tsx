@@ -32,26 +32,26 @@ const modelData = [
 
 const sections = [
   {
-    label: "01 — Hybrid Super SUV",
+    label: "01 — Luxury Super SUV",
     title: "Lamborghini\nUrus SE",
-    desc: "The pinnacle of high-performance utility. 800 CV of lightning-fast acceleration and uncompromising power.",
-    tags: ["High Velocity", "800 CV", "Turbocharged"],
+    desc: "The ultimate expression of versatile luxury. A masterclass in automotive presence and uncompromising craftsmanship.",
+    tags: ["Elite Class", "Hybrid Tech", "Bespoke Interior"],
     color: "#050505",
     accent: "#C5A47E"
   },
   {
-    label: "02 — M Performance",
+    label: "02 — Refined Precision",
     title: "BMW\nM4 Competition",
-    desc: "Precision engineering meets aggressive design. A straight-six masterpiece that delivers raw power and surgical handling.",
-    tags: ["M-Powered", "503 HP", "Isle of Man Green"],
+    desc: "A surgical blend of elegance and athletic design. Every detail curated for an engaging, yet sophisticated journey.",
+    tags: ["Grand Tourer", "S58 Inline-6", "Isle of Man Green"],
     color: "#050505",
     accent: "#C5A47E"
   },
   {
-    label: "03 — Track Focused",
+    label: "03 — Pure Elegance",
     title: "McLaren\n570S Coupe",
-    desc: "A pure driver's car. Lightweight carbon construction and a mid-mounted V8 designed for the ultimate adrenaline rush.",
-    tags: ["Carbon Tube", "V8 Bi-Turbo", "Monocell II"],
+    desc: "The art of grand touring. Lightweight carbon construction meets timeless design for the perfect coastal escape.",
+    tags: ["Carbon Monocell", "Signature Collection", "Starlight Black"],
     color: "#050505",
     accent: "#C5A47E"
   }

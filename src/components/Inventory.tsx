@@ -55,9 +55,9 @@ const Inventory: React.FC<InventoryProps> = ({ onClose }) => {
         {/* Header */}
         <div className="flex justify-between items-start mb-20">
           <div>
-            <div className="text-accent text-[10px] uppercase tracking-[0.5em] font-bold mb-4">Private Keys High Performance Fleet</div>
-            <h2 className="text-5xl md:text-7xl font-bold uppercase tracking-tighter leading-none">
-              The <span className="text-white/20 text-outline">Power</span> <br/> On Demand.
+            <div className="text-accent text-[10px] uppercase tracking-[0.5em] font-bold mb-4">The Elite Luxury Collection by Private Keys</div>
+            <h2 className="text-5xl md:text-7xl font-serif font-bold uppercase tracking-tighter leading-none">
+              The <span className="text-white/20 text-outline">Marque</span> <br/> Of Distinction.
             </h2>
           </div>
           <button 

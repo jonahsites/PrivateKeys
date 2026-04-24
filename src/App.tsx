@@ -85,7 +85,7 @@ export default function App() {
           onClick={() => setShowInventory(true)}
           className="ml-2 bg-accent text-black px-6 py-2 rounded-full text-[9px] font-bold uppercase tracking-widest hover:bg-accent/80 transition-colors shadow-[0_0_20px_rgba(197,164,126,0.3)]"
         >
-          Book Now
+          Reserve
         </button>
       </nav>
 
@@ -104,19 +104,19 @@ export default function App() {
             >
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-12 h-0.5 bg-accent" />
-                <span className="text-[10px] font-black uppercase tracking-[0.8em] text-accent">System Ready</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.8em] text-accent">Distinction Ready</span>
               </div>
-              <h1 className="text-7xl md:text-9xl lg:text-[140px] font-bold leading-[0.8] uppercase tracking-[-0.06em] mb-12">
-                Unleash <br/> 
-                <span className="text-outline">The Beast.</span>
+              <h1 className="text-7xl md:text-9xl lg:text-[140px] font-serif font-bold leading-[0.8] uppercase tracking-[-0.06em] mb-12">
+                Absolute <br/> 
+                <span className="text-outline">Distinction.</span>
               </h1>
               <div className="grid grid-cols-2 gap-12 max-w-md border-t border-white/10 pt-12">
                 <div>
-                  <p className="text-[9px] uppercase tracking-widest text-white/30 mb-2">Fleet Dynamics</p>
-                  <p className="text-sm font-medium leading-relaxed">Hypercars curated for the absolute performance purist.</p>
+                  <p className="text-[9px] uppercase tracking-widest text-white/30 mb-2">Curated Fleet</p>
+                  <p className="text-sm font-medium leading-relaxed font-serif italic text-white/80">Automotive masterpieces selected for the discerning traveler.</p>
                 </div>
                 <div>
-                  <p className="text-[9px] uppercase tracking-widest text-white/30 mb-2">Location Hubs</p>
+                  <p className="text-[9px] uppercase tracking-widest text-white/30 mb-2">Service Hubs</p>
                   <p className="text-sm font-medium leading-relaxed">Miami / Tampa / Orlando / NY.</p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function App() {
                 <div className="flex justify-between items-end">
                   <div>
                     <p className="text-4xl font-bold mb-1 tracking-tighter">PRIVATE KEYS</p>
-                    <p className="text-[10px] uppercase tracking-[0.4em] text-accent font-bold">Elite Performance</p>
+                    <p className="text-[10px] uppercase tracking-[0.4em] text-accent font-bold">Unrivaled Selection</p>
                   </div>
                   <MousePointer2 className="text-white/20 -rotate-12" size={32} />
                 </div>
@@ -178,12 +178,12 @@ export default function App() {
         <div className="max-w-[1400px] mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end gap-12 mb-24">
             <div className="max-w-2xl">
-              <span className="text-[10px] font-bold uppercase tracking-[0.8em] text-accent mb-6 block">Command Center Services</span>
-              <h2 className="text-6xl md:text-8xl font-bold tracking-tighter uppercase leading-[0.85]">Technical <br/> <span className="text-outline">Support.</span></h2>
+              <span className="text-[10px] font-bold uppercase tracking-[0.8em] text-accent mb-6 block">Concierge Protocols</span>
+              <h2 className="text-6xl md:text-8xl font-serif font-bold tracking-tighter uppercase leading-[0.85]">Bespoke <br/> <span className="text-outline">Assistance.</span></h2>
             </div>
             <div className="flex flex-col items-end text-right">
               <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-8 uppercase tracking-widest font-mono">
-                Real-time support / Multi-modal logistics / Performance optimization
+                White-glove logistics / 24-7 Client service / Seamless delivery
               </p>
               <div className="flex gap-2">
                 {[1, 2, 3].map(i => <div key={i} className="w-1.5 h-1.5 bg-accent" />)}
@@ -201,9 +201,9 @@ export default function App() {
               <img src="https://static.wixstatic.com/media/dfb3c4_c0a36ab317df453aa2e9e293710567a1~mv2.jpg" className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-editorial grayscale group-hover:grayscale-0" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent h-full" />
               <div className="absolute bottom-12 left-12">
-                <span className="text-[10px] font-bold text-accent mb-4 block uppercase tracking-widest font-mono">MOD_PHOTO_PRO</span>
-                <h3 className="text-4xl font-bold mb-4 uppercase">Visual Documentation</h3>
-                <p className="text-white/40 text-sm max-w-xs uppercase tracking-widest leading-loose">High-fidelity photography for elite fleet documentation.</p>
+                <span className="text-[10px] font-bold text-accent mb-4 block uppercase tracking-widest font-mono">MOD_LUXE_PRO</span>
+                <h3 className="text-4xl font-bold mb-4 uppercase">Elegant Portraits</h3>
+                <p className="text-white/40 text-sm max-w-xs uppercase tracking-widest leading-loose">High-fidelity imagery for our most prestigious marques.</p>
               </div>
               <div className="absolute top-12 right-12 text-3xl font-bold text-white/10 group-hover:text-accent/40 transition-colors">01</div>
             </motion.div>
@@ -216,10 +216,10 @@ export default function App() {
             >
               <div className="text-black">
                 <span className="text-[10px] font-bold text-black/50 mb-4 block uppercase tracking-widest font-mono">MOD_ROM_PKG</span>
-                <h3 className="text-4xl font-bold mb-6 uppercase">Goldline Experience</h3>
+                <h3 className="text-4xl font-bold mb-6 uppercase">Goldline Journey</h3>
               </div>
               <div className="flex flex-col gap-6">
-                <p className="text-black/70 text-xs uppercase tracking-[0.2em] leading-relaxed">Turbocharge your events with bespoke automotive styling and concierge delivery.</p>
+                <p className="text-black/70 text-xs uppercase tracking-[0.2em] leading-relaxed">Elevate your presence with bespoke livery and private entry concierge services.</p>
                 <ArrowUpRight size={48} className="text-black/20 group-hover:text-black transition-all transform group-hover:translate-x-2 group-hover:-translate-y-2" />
               </div>
             </motion.div>
@@ -252,8 +252,8 @@ export default function App() {
                   <div className="w-16 h-16 border border-white/10 rounded-full animate-pulse" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-3xl font-bold mb-4 uppercase">VIP Precision Delivery</h3>
-                  <p className="text-white/40 text-sm uppercase tracking-widest leading-loose">Automated coordinate tracking and delivery to any of our served multi-state locations.</p>
+                  <h3 className="text-3xl font-bold mb-4 uppercase">Bespoke Valet Delivery</h3>
+                  <p className="text-white/40 text-sm uppercase tracking-widest leading-loose">Seamless door-to-door transit and personalized handover at any of our served multi-state locations.</p>
                 </div>
                 <button className="px-8 py-4 bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-widest hover:bg-accent hover:text-black transition-colors shrink-0">Inquire</button>
               </div>
@@ -271,14 +271,14 @@ export default function App() {
                 <div className="w-20 h-[1px] bg-accent" />
                 <span className="text-[10px] font-bold uppercase tracking-[0.8em] text-accent">Core Protocol</span>
               </div>
-              <h2 className="text-7xl md:text-9xl font-bold tracking-tighter uppercase leading-[0.85] mb-12">Total <br/> <span className="text-outline">Command.</span></h2>
+              <h2 className="text-7xl md:text-9xl font-serif font-bold tracking-tighter uppercase leading-[0.85] mb-12">Total <br/> <span className="text-outline">Excellence.</span></h2>
               <div className="space-y-8 text-white/50 text-xl leading-relaxed font-light font-mono">
                 <p>
                   &gt; PRIVATE KEYS IS MORE THAN RENTALS.<br/>
-                  &gt; WE ARE THE PERFORMANCE OPERATORS OF MIAMI, TAMPA, ORLANDO & NY.
+                  &gt; WE ARE THE PREMIER OPERATORS OF MIAMI, TAMPA, ORLANDO & NY.
                 </p>
                 <p className="text-base text-white/30 uppercase tracking-widest leading-loose">
-                  Our fleet is a curated selection of automotive precision. We provide the weaponry for the streets across our major hubs, maintained to surgical standards and delivered with absolute efficiency.
+                  Our fleet is a curated selection of automotive perfection. We provide the entry to the most exclusive destinations, maintained to obsessive standards of excellence and delivered with absolute discretion.
                 </p>
               </div>
               <div className="mt-16 grid grid-cols-2 gap-12 border-t border-white/5 pt-16">
@@ -320,20 +320,20 @@ export default function App() {
               />
               <div>
                 <span className="text-xl font-bold tracking-tighter text-white uppercase leading-none block">Private Keys</span>
-                <span className="text-[10px] tracking-[0.4em] text-accent font-bold uppercase mt-1">Exotics HQ</span>
+                <span className="text-[10px] tracking-[0.4em] text-accent font-bold uppercase mt-1">Premier Registry</span>
               </div>
             </div>
             <div className="flex flex-col gap-4 text-[9px] font-mono uppercase tracking-[0.2em] text-white/30">
-              <p>COORD: 25.7617° N, 80.1918° W</p>
-              <p>STATUS: OPERATIONAL_24/7</p>
-              <p>VERSION: 2.1.0_LATEST</p>
+              <p>REGION: MIAMI_TERRITORY</p>
+              <p>STATUS: UNWAVERING_SERVICE</p>
+              <p>ESTABLISHED: MMXXIV</p>
             </div>
           </div>
 
           <div>
-            <h4 className="text-[10px] font-bold uppercase tracking-[0.6em] mb-12 text-accent">Fleet Interface</h4>
+            <h4 className="text-[10px] font-bold uppercase tracking-[0.6em] mb-12 text-accent">The Collection</h4>
             <div className="flex flex-col gap-8 text-[11px] font-bold uppercase tracking-[0.3em] text-white/50">
-              {["Master Deck", "Support Hub", "Access Portal", "System Inquiry"].map(label => (
+              {["Master Registry", "Concierge Hub", "Client Portal", "Private Inquiry"].map(label => (
                 <a key={label} href="#" className="hover:text-accent transition-colors w-fit">{label}</a>
               ))}
             </div>
@@ -350,9 +350,9 @@ export default function App() {
 
           <div className="relative p-12 bg-white/[0.02] border border-white/10 corner-bracket overflow-hidden group">
             <div className="absolute inset-0 bg-accent/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
-            <h4 className="relative text-[10px] font-black uppercase tracking-[0.4em] mb-8 text-white">System Inquiry</h4>
+            <h4 className="relative text-[10px] font-black uppercase tracking-[0.4em] mb-8 text-white">Private Inquiry</h4>
             <button className="relative w-full py-5 bg-accent text-black text-[10px] font-black uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all hud-glow">
-              Initialize Booking
+              Initialize Experience
             </button>
           </div>
         </div>
